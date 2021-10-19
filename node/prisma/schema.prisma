@@ -1,0 +1,32 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// criando tabela no banco com prisma
+// após criada precisa criar o migrate | yarn prisma migrate dev
+model User {
+  id         String @id @default(uuid())
+  name       String
+  github_id  Int
+  avatar_url String
+  login      String
+
+  messages Message[]
+  @@map("users")
+}
+
+model Message {
+  id         String   @id @default(uuid())
+  text       String
+  created_ed DateTime @default(now())
+
+  user User @relation(fields: [user_id], references: [id])
+
+  user_id String
+  @@map("messages")
+}
