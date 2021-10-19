@@ -2,7 +2,7 @@
 
 Backend da aplicação desenvolvido em node com liberação do Github OAuth para o **localhost:4000**
 
-## Intalação e Inicialização
+## 💻 Intalação e Inicialização
 
 Clone do repositório na pasta **/node**
 
@@ -28,7 +28,7 @@ Inicialização do projeto
 
 Complementares: Express / Axios / JsonWebToken / Global @Types / Cors
 
-## Rotas Principais
+## 🚛 Rotas Principais
 
 Utilize o Insomnia ou Postman para verificar as rotas para teste da aplicação
 
