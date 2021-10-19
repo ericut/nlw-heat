@@ -51,3 +51,7 @@ Pega as últimas mensagens postadas, é possível mudar a quantidade dinamicamen
 Pega as informações do usuário logado
 
 `urlbase /profile`
+
+## 👨‍💻 DOT ENV
+
+O arquivo **.env** precisa ser configurado com as credênciais do seu utilizador
