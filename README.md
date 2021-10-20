@@ -1,59 +1,60 @@
 # NWL Heat
 
+---
+
 ## 🎲 Backend / Node
 
 Backend da aplicação desenvolvido em node com liberação do Github OAuth para o **localhost:4000**
 
-### 💻 Intalação e Inicialização
+### 💻 Instalação e Inicialização
 
-Clone do repositório na pasta **/node**
+Clone do repositório da pasta **/node**
 
-Instalação de dependências
+- **Instalação de dependências**
+  `yarn` ou `npm install`
 
-`yarn` ou `npm install`
+- **Rodando as migrates**
+  `yarn prisma migrate dev` ou `npm run prisma migrate dev`
 
-Inicialização do projeto
-
-`yarn dev` ou `npm run dev`
+- **Inicialização do projeto**
+  `yarn dev` ou `npm run dev`
 
 ### ❤ Tecnologias
 
-• NodeJS
-
-• Typescript
-
-• Prisma / Prisma Studio
-
-• Github OAuth
-
-• Socket.io
+- NodeJS
+- Typescript
+- Prisma / Prisma Studio
+- Github OAuth
+- Socket.io
 
 Complementares: Express / Axios / JsonWebToken / Global @Types / Cors
-
-### 🚛 Rotas Principais
-
-Utilize o Insomnia ou Postman para verificar as rotas para teste da aplicação
-
-Para autorizar o login e receber o código de acesso ao Github
-
-`urlbase /github` -> `urlbase /signin/callback`
-
-Passando o código do Github no corpo, nesta rota é possível receber o Token e Dados do Usuário do Github
-
-`urlbase /authenticate`
-
-Passe o Token via Bearer e o no corpo a nova mensagem que será postada na aplicação
-
-`urlbase /messages`
-
-Pega as últimas mensagens postadas, é possível mudar a quantidade dinamicamente
-
-`urlbase /messages/last`
-
-Pega as informações do usuário logado
-
-`urlbase /profile`
 
 ### 👨‍💻 DOT ENV
 
 O arquivo **.env** precisa ser configurado com as credênciais do seu utilizador
+
+---
+
+## ✨ FrontEnd / ReactJS
+
+Frontend desenvolvido em ReactJS utilizando Vite como ecosistema, com isso é a aplicação tem várias ferramentas e performance tanto na compilação quanto ao desenvolvimento
+
+### 💻 Instalação e Inicialização
+
+Clone do repositório da pasta **/react**
+
+- **Instalação de dependências**
+  `yarn` ou `npm install`
+
+- **Inicialização do projeto**
+  `yarn dev` ou `npm run dev`
+
+### ❤ Tecnologias
+
+- Vite
+- ReactJS
+- Typescript
+- SASS SCSS
+- Context API
+
+Complementares: CSS Modules / React Icons / Axios
