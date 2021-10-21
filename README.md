@@ -58,3 +58,37 @@ Clone do repositório da pasta **/react**
 - Context API
 
 Complementares: CSS Modules / React Icons / Axios
+
+---
+
+## 📳 Mobile / React Native
+
+O mobile é desenvolvido em React Native, utilizando EXPO como ecosistema garantino mais ferramentas melhorando a produtividade do aplicativo
+
+### 💻 Instalação e Inicialização
+
+#### Requisitos para Inicialização
+
+- **Expo CLI**
+  `npm install --global expo-cli`
+
+#### Inicialização do Projeto
+
+Clone do repositório da pasta **/expo**
+
+- **Instalação de dependências**
+  `yarn` ou `npm install`
+
+- **Inicialização do projeto**
+  `expo start`
+
+- **Emulando a aplicação**
+  No menu esquerdo da página _localhost_ do Expo, selecione _*Run on Android device/emulator*_
+
+### ❤ Tecnologias
+
+- Expo
+- React Native
+- Typescript
+
+Complementares: Expo Fonts
