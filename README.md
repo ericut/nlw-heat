@@ -8,7 +8,7 @@ Backend da aplicação desenvolvido em node com liberação do Github OAuth para
 
 ### 💻 Instalação e Inicialização
 
-Clone do repositório da pasta **/node**
+Clone do repositório da pasta **/nodejs**
 
 - **Instalação de dependências**
   `yarn` ou `npm install`
@@ -41,7 +41,7 @@ Frontend desenvolvido em ReactJS utilizando Vite como ecosistema, com isso é a 
 
 ### 💻 Instalação e Inicialização
 
-Clone do repositório da pasta **/react**
+Clone do repositório da pasta **/reactjs**
 
 - **Instalação de dependências**
   `yarn` ou `npm install`
@@ -74,7 +74,7 @@ O mobile é desenvolvido em React Native, utilizando EXPO como ecosistema garant
 
 #### Inicialização do Projeto
 
-Clone do repositório da pasta **/expo**
+Clone do repositório da pasta **/reactnative**
 
 - **Instalação de dependências**
   `yarn` ou `npm install`
