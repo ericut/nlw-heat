@@ -92,5 +92,5 @@ Clone do repositório da pasta **/reactnative**
 - Typescript
 - Moti
 
-Complementares: Expo Fonts / React Native SVG / React Native SVG Transformer / React Native iPhone X Helper / VS Code Snippets
+Complementares: Expo Fonts / React Native SVG / React Native SVG Transformer / React Native iPhone X Helper / VS Code Snippets / Auth Session / Axios / Expo Async Storage
 Externo: Faces UI

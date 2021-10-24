@@ -4,7 +4,7 @@ Frontend desenvolvido em ReactJS utilizando Vite como ecosistema, com isso é a 
 
 ## 💻 Instalação e Inicialização
 
-Clone do repositório da pasta **/react**
+Clone do repositório da pasta **/reactjs**
 
 - **Instalação de dependências**
   `yarn` ou `npm install`

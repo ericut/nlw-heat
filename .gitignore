@@ -3,6 +3,8 @@
 # dev env
 .dev.env
 /.dev.env
+.mobile.env
+/.mobile.env
 
 # dependencies
 */node_modules

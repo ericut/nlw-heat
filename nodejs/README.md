@@ -4,7 +4,7 @@ Backend da aplicação desenvolvido em node com liberação do Github OAuth para
 
 ## 💻 Instalação e Inicialização
 
-Clone do repositório da pasta **/node**
+Clone do repositório da pasta **/nodejs**
 
 - **Instalação de dependências**
   `yarn` ou `npm install`
